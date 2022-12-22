@@ -1,0 +1,12 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  color: grey;
+  line-height: 1.5rem;
+}
+
+.pimg1 {
+  background-image: url(./img1.avif);
+}
