@@ -24,15 +24,21 @@ const loginBtn = getElementId("loginBtn");
 
 const signUpLink = getElementId("signUpLink");
 
-//event 
+//event
 signUpLink.addEventListener("click", showSignup);
-
 Login_Link.addEventListener("click", showLogin);
-
 
 //function
 function getElementId(id) {
   return document.getElementById(id);
 }
 
-signUpLink.append
+function showSignup() {
+  signUp.classList.remove("d-none");
+  logIn.classList.add("d-none");
+}
+
+function showLogin() {
+  logIn.classList.remove("d-none");
+  signUp.classList.add("d-none");
+}
