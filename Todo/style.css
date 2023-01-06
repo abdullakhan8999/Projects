@@ -6,6 +6,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+.main_container {
+  margin: auto;
+  width: 75%;
+}
+
 .headerContainer {
   position: sticky;
   top: 0;

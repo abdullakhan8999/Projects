@@ -30,7 +30,7 @@ Login_Link.addEventListener("click", showLogin);
 
 //function
 function getElementId(id) {
-  return document.getElementById(id);
+  return document.getElementById(id );
 }
 
 function showSignup() {

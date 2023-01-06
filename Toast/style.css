@@ -1,0 +1,50 @@
+body {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+#toasts {
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+  height: 40px;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.toast {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 1em 2em;
+  margin: 0.8rem;
+}
+
+.toast.error {
+  color: red;
+}
+.toast.success {
+  color: green;
+}
+.toast.info {
+  color: aquamarine;
+}

@@ -1,0 +1,29 @@
+body {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+}
+
+.speedController {
+  /* position:absolute;
+   bottom: 20px; */
+  background-color: rgb(0, 0, 0, 0.2);
+  padding: 12px 20px;
+  /* color: aliceblue; */
+  font-size: 20px;
+  border: 2px solid lightseagreen;
+  border-radius: 10px;
+}
+
+.speedController > input {
+  width: 60px;
+  padding: 4px;
+  text-align: center;
+  outline-width: 0;
+  border: 2px solid lightseagreen;
+  border-radius: 10px;
+}
